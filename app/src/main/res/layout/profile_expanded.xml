@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#F5DCC6"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="#F7DDAF"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/showimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/profile"
+               />
+
+            <Button
+                android:id="@+id/choose_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp" />
+
+         <Button
+             android:id="@+id/edit_image"
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:layout_marginTop="20dp"
+
+             app:srcCompat="@android:drawable/ic_menu_camera"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+
+                android:ems="10"
+                android:autoSizeMinTextSize="20sp"
+                android:inputType="textPersonName"
+
+                android:hint="Name"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="142dp" />
+
+
+            <RatingBar
+                android:id="@+id/listitemrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+                android:isIndicator="true"
+                android:max="5"
+                android:scaleX=".5"
+                android:scaleY=".5"
+                android:transformPivotX="122dp"
+                android:transformPivotY="33dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@string/common_google_play_services_enable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me "
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/aboutme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#660099"
+        android:inputType="textPersonName"
+        android:hint="Work"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@string/common_google_play_services_enable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professional Experience "
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/exp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="year/month"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+         />
+    <TextView
+        android:id="@+id/textView5"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@string/common_google_play_services_enable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/mobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Mobile No"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/shopname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Name"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:background="#D38686"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>

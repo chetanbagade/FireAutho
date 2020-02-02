@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957811709797",
+    "firebase_url": "https://fireautho-ff259.firebaseio.com",
+    "project_id": "fireautho-ff259",
+    "storage_bucket": "fireautho-ff259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957811709797:android:92c6eb0cbd7b44f12af38c",
+        "android_client_info": {
+          "package_name": "com.example.fireautho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957811709797-ndr7p3p97s8sfu3icg5ed7hrhp2nkjms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fireautho",
+            "certificate_hash": "269cdc64ac05033e1c654d569f754906c3d8eb71"
+          }
+        },
+        {
+          "client_id": "957811709797-mni2etdtsniqcq24d4glrhra7svfupd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvC-iQnF51tI8S_2UqGENC_7VD4PAzSyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957811709797-mni2etdtsniqcq24d4glrhra7svfupd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
